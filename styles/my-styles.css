@@ -1,0 +1,121 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: gray;
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: gold !important;
+}
+
+.dropdown-menu {
+  background-color: black !important;
+}
+
+
+@media (max-width: 600px) {
+  
+   .carousel {
+    display: none;
+  }
+  
+}
+
+/*From my fontawesome project */
+.alert {
+  font-size: 40px;
+}
+
+.fa-row {
+  background-color: gray;
+  text-align:center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: #ffffff;
+}
+
+.fab {
+  font-size: 60px;
+}
+
+.fab:hover, .fab-links:hover {
+  color: gold;
+  text-decoration: none;
+}
+
+.fab-links {
+  color: #ffffff;
+  
+}
+
+.my-google-font  {
+  text-align: center;
+  font-family: Lacquer;
+  font-size: 40px;
+}
+/**/
+.carousel-caption {
+  background-color: rgb(0,0,0,0.5);
+  width: 40%;
+  margin: auto;
+}
+
+
+.footer-row {
+  background-color: gray;
+  text-align:center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: #ffffff;
+}
+
+.footer-row a {
+  color: #ffffff;
+}
+
+.video-row {
+  position:relative;
+  top: 30px;
+  text-align: center;
+  padding: 32px;
+}
+
+.google-fonts-sample {
+  text-align: left !important;
+  font-family: Lacquer;
+  font-size: 28px;
+  padding-left: 40px;
+}
+
+.gallery {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+.cropped-1 {
+  object-fit: cover;
+  object-position:46% 0;
+  width: 300px;
+  height: 300px;
+}
+
+.cropped-2 {
+  object-fit: cover;
+  object-position:50% 0;
+  width: 300px;
+  height: 300px;
+}
+
+.cropped-3 {
+  object-fit: cover;
+  object-position:30% 0;
+  width: 300px;
+  height: 300px;
+}
